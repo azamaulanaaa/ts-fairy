@@ -1,6 +1,6 @@
 {
   "name": "@azamaulanaaa/ts-fairy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A curated collection of utilities and enhancements designed to improve the developer experience. This package provides tools for streamlining workflows, simplifying common tasks, and boosting productivity, making coding more enjoyable and efficient.",
   "type": "module",
   "scripts": {
