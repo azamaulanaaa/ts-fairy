@@ -14,7 +14,7 @@
     "url": "git+ssh://git@github.com/azamaulanaaa/ts-fairy.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "azamaulanaaa@gmail.com",
   "license": "GPL-3.0",
