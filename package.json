@@ -1,0 +1,19 @@
+{
+  "name": "@azamaulanaaa/fairy",
+  "version": "0.0.0",
+  "description": "A curated collection of utilities and enhancements designed to improve the developer experience. This package provides tools for streamlining workflows, simplifying common tasks, and boosting productivity, making coding more enjoyable and efficient.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/azamaulanaaa/ts-fairy.git"
+  },
+  "author": "azamaulanaaa@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/azamaulanaaa/ts-fairy/issues"
+  },
+  "homepage": "https://github.com/azamaulanaaa/ts-fairy#readme"
+}
