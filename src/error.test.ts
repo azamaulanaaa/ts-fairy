@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import * as module from "./error";
+import * as module from "@azamaulanaaa/ts-fairy/error";
 
 describe("error", () => {
   describe("createErrorClass", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import * as module from "./match";
+import * as module from "@azamaulanaaa/ts-fairy/match";
 
 describe("match", () => {
   describe("match", () => {
