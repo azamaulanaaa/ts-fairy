@@ -2,8 +2,11 @@
   "name": "@azamaulanaaa/fairy",
   "version": "0.0.0",
   "description": "A curated collection of utilities and enhancements designed to improve the developer experience. This package provides tools for streamlining workflows, simplifying common tasks, and boosting productivity, making coding more enjoyable and efficient.",
-  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "clean:build": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/azamaulanaaa/ts-fairy/issues"
   },
-  "homepage": "https://github.com/azamaulanaaa/ts-fairy#readme"
+  "homepage": "https://github.com/azamaulanaaa/ts-fairy#readme",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.8.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  }
 }
