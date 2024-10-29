@@ -103,6 +103,7 @@
     "src/**/*"
   ], // Include all TypeScript files in src
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.test.ts"
   ] // Exclude node_modules
 }
