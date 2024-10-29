@@ -33,6 +33,7 @@
   },
   "exports": {
     "./error": "./dist/error.js",
-    "./result": "./dist/result.js"
+    "./result": "./dist/result.js",
+    "./match": "./dist/match.jst"
   }
 }
