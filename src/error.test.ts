@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import * as module from "./error.ts";
+import * as module from "./error";
 
 describe("error", () => {
   describe("createErrorClass", () => {
@@ -39,7 +39,7 @@ describe("error", () => {
     it("pass message as funciton with return string", () => {
       const Error1 = module.createErrorClass(
         "",
-        (msg: string, _cause?: error) => msg + "suffix",
+        (msg: string, _cause?: Error) => msg + "suffix",
       );
       const error1 = new Error1("some-message");
 
