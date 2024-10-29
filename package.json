@@ -34,6 +34,6 @@
   "exports": {
     "./error": "./dist/error.js",
     "./result": "./dist/result.js",
-    "./match": "./dist/match.jst"
+    "./match": "./dist/match.js"
   }
 }
